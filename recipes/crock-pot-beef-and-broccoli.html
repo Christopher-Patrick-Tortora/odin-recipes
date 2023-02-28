@@ -15,9 +15,12 @@
 <body>
     <header class="page-header">
         <img src="../assets/odin.png" alt="The Odin Project Icon">
-        <a href="../index.html">
-            <h1>Odin Recipes</h1>
-        </a>
+        <nav>
+            <a href="../index.html">
+                <h1>Odin Recipes</h1>
+            </a>
+        </nav>
+
     </header>
     <main>
         <header class="recipe-header">
@@ -41,9 +44,18 @@
 
         </header>
         <ul class="header-button-container">
-            <button><img src="../assets/star.png" alt="">Rate Recipe</button>
-            <button><img src="../assets/save.png" alt="">Save Recipe</button>
-            <button><img src="../assets/printer.png" alt="">Print Recipe</button>
+            <li>
+                <button><img src="../assets/star.png" alt="">Rate Recipe</button>
+            </li>
+            <li>
+                <button><img src="../assets/save.png" alt="">Save Recipe</button>
+            </li>
+            <li>
+                <button><img src="../assets/printer.png" alt="">Print Recipe</button>
+            </li>
+           
+
+
         </ul>
         <section class="description">
             <h4>Description</h4>
@@ -60,20 +72,35 @@
                 <div class="convert-container">
                     <p>Convert</p>
                     <ul class="convert-button-container">
-                        <button class="us-button">US Customary</button>
-                        <button class="metric-button">Metric</button>
+                        <li>
+                            <button class="us-button">US Customary</button>
+                        </li>
+                        <li>
+                            <button class="metric-button">Metric</button>
+                        </li>
+                        
+                       
                     </ul>
                 </div>
                 <div class="servings-container">
                     <p>Servings</p>
                     <ul class="servings-button-container">
-                        <button class="decrease-button">-</button>
-                        <input type="text" name="servings" id="servings-input" value="6">
-                        <button class="increase-button">+</button>
+                        <li>
+                            <button class="decrease-button">-</button>
+
+                        </li>
+                        <li>
+                            <input type="text" name="servings" id="servings-input" value="6">
+
+                        </li>
+                        <li>
+                            <button class="increase-button">+</button>
+
+                        </li>
                     </ul>
                 </div>
             </div>
-            <h1>Ingredients</h1>
+            <h2>Ingredients</h2>
             <ul class="ingredients-list-container">
                 <li>
                     <input type="checkbox" id="ingredient-one">
@@ -85,7 +112,7 @@
                 </li>
                 <li>
                     <input type="checkbox" id="ingredient-three">
-                    <label for="ingredient-three">1/2 cup low sodium soy sauce</i></label>
+                    <label for="ingredient-three">1/2 cup low sodium soy sauce</label>
                 </li>
                 <li>
                     <input type="checkbox" id="ingredient-four">
@@ -119,7 +146,7 @@
             </ul>
         </section>
         <section class="instructions">
-            <h1>Instructions</h1>
+            <h2>Instructions</h2>
             <ol>
                 <li>
                     <p>
@@ -151,16 +178,16 @@
             </ol>
         </section>
         <section class="equipment">
-            <h1>Equipment</h1>
+            <h2>Equipment</h2>
         </section>
         <section class="video">
-            <h1>Video</h1>
+            <h2>Video</h2>
         </section>
         <section class="notes">
-            <h1>Notes</h1>
+            <h2>Notes</h2>
         </section>
         <section class="nutrition">
-            <h1>Nutrition Information</h1>
+            <h2>Nutrition Information</h2>
             <div class="nutrition-stats-container">
             </div>
         </section>
