@@ -1,0 +1,23 @@
+.page-header{
+    display: flex;
+    justify-content: center;
+    font-family: norse-bold;
+}
+
+header > img {
+    width: 64px;
+    height: 64px;
+    
+}
+
+
+
+@font-face {
+    font-family: norse-bold;
+    src: url('./assets/Norse-Bold.otf');
+}
+
+@font-face {
+    font-family: norse;
+    src: url('./assets/Norse.otf');
+}
