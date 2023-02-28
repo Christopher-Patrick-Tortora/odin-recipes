@@ -15,28 +15,33 @@
 <body>
   <header class="page-header">
     <img src="../assets/odin.png" alt="The Odin Project Icon">
-    <h1>Odin Recipes</h1>
+    <a href="../index.html"><h1>Odin Recipes</h1></a>
   </header>
   <main>
     <header class="recipe-header">
-      <div class="rating-container">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span>4.54 from 54 votes</span>
+      <div class="recipe-header-text-container">
+        <div class="rating-container">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span>4.54 from 54 votes</span>
+        </div>
+        <h1>Slow Cooker Short Ribs</h1>
+        <div class="time-container">
+            <p><b>Prep: </b>10 min</p>
+            <p><b>Prep: </b> 8 hours 30 minutes</p>
+            <p><b>Total: </b> 8 hours 40 minutes</p>
+        </div>
       </div>
-      <h1>Slow Cooker Short Ribs</h1>
-      <p><b>Prep: </b>10 min</p>
-      <p><b>Prep: </b> 8 hours 30 minutes</p>
-      <p><b>Total: </b> 8 hours 40 minutes</p>
-
+      <img src="../assets/slow-cooker-short-ribs.jpg" alt="">
+      
     </header>
-    <ul>
-      <button><img src="" alt="">Rate Recipe</button>
-      <button><img src="" alt="">Save Recipe</button>
-      <button><img src="" alt="">Print Recipe</button>
+    <ul class="header-button-container">
+      <button><img src="../assets/star.png" alt="">Rate Recipe</button>
+      <button><img src="../assets/save.png" alt="">Save Recipe</button>
+      <button><img src="../assets/printer.png" alt="">Print Recipe</button>
     </ul>
     <section class="description">
       <h4>Description</h4>
@@ -44,25 +49,25 @@
           Fall off the bone tender and delicious.</i></p>
     </section>
     <section class="ingredients">
-      <div class="ingredients-settings">
-        <div class="ingredients-convert">
+      <div class="settings-container">
+        <div class="convert-container">
           <p>Convert</p>
-          <ul>
-            <button>US Customary</button>
-            <button>Metric</button>
+          <ul class="convert-button-container">
+            <button class="us-button">US Customary</button>
+            <button class="metric-button">Metric</button>
           </ul>
         </div>
-        <div class="ingredients-servings">
+        <div class="servings-container">
           <p>Servings</p>
-          <ul>
-            <button>-</button>
+          <ul class="servings-button-container">
+            <button class="decrease-button">-</button>
             <input type="text" name="servings" id="servings-input" value="6">
-            <button>+</button>
+            <button class="increase-button">+</button>
           </ul>
         </div>
       </div>
       <h1>Ingredients</h1>
-      <ul>
+      <ul class="ingredients-list-container">
         <li>
           <input type="checkbox" id="ingredient-one">
           <label for="ingredient-one">1 tablespoon vegetable oil</label>
@@ -233,11 +238,11 @@
         <span><b>Iron: </b>47mg (5%)</span>
       </div>
     </section>
-    <section class="recipe-footer">
+    <footer class="recipe-footer">
       <p>© <b>Author </b><a href="https://www.jocooks.com/about/">Joanna Cismaru</a></p>
       <p><i>Notice: Nutrition is auto-calculated for your convenience. 
         Where relevant, we recommend using your own nutrition calculations.</i></p>
-    </section>
+    </footer>
   </main>
   <script src="main.js"></script>
 </body>
