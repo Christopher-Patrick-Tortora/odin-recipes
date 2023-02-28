@@ -79,6 +79,7 @@ section {
         lightgray 50%,
         lightgray 100%
     );
+    list-style: none;
 }
 
 .header-button-container > button {
@@ -124,10 +125,12 @@ section {
 .convert-button-container {
     display: flex;
     gap: 0px;
+    list-style: none;
 }
 
 .us-button, .metric-button {
     border: 2px solid black;
+    height: 32px;
 }
 
 .us-button {
@@ -147,20 +150,26 @@ section {
 .servings-button-container {
     display: grid;
     grid-template-columns: 32px 32px 32px;
+    grid-template-rows: 32px;
+    list-style: none;
 }
 
-.servings-button-container > button {
+.servings-button-container > li > button {
     background-color: black;
     color: white;
     font-weight: bolder;
-    width: 32px;
-    height: 32px;
+    width: 100%;
+    height: 100%;
     border: none;
 }
 
-.servings-button-container > input {
+.servings-button-container > li > input {
     outline: none;
     border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
 }
 
 .decrease-button {
